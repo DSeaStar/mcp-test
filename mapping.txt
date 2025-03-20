@@ -1,0 +1,11 @@
+# 类名映射
+class net/minecraft/client/Minecraft -> net/minecraft/client/MinecraftClient
+class net/minecraft/client/gui/GuiScreen -> net/minecraft/client/gui/Screen
+
+# 方法名映射
+method net/minecraft/client/Minecraft/init()V -> initMinecraft
+method net/minecraft/client/Minecraft/run()V -> runGameLoop
+
+# 字段名映射
+field net/minecraft/client/Minecraft/mcDataDir Ljava/io/File; -> gameDir
+field net/minecraft/client/Minecraft/displayWidth I -> windowWidth 
